@@ -33,7 +33,7 @@ export const Details = styled.div`
   h1 {
     margin-bottom: 2rem;
     font-size: 36pt;
-    color: theme.colors.;
+    color: ${props => props.theme.text};
 
     @media (max-width: 680px) {
       font-size: 30pt;
