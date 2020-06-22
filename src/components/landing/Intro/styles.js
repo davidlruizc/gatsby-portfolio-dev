@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import overlayIllustration from 'assets/illustrations/overlay.svg';
 
+import { theme } from '../../../utils/styles/theme';
+
 export const Wrapper = styled.div`
   padding-bottom: 4rem;
   background-image: url(${overlayIllustration});
@@ -31,7 +33,7 @@ export const Details = styled.div`
   h1 {
     margin-bottom: 2rem;
     font-size: 36pt;
-    color: #212121;
+    color: theme.colors.;
 
     @media (max-width: 680px) {
       font-size: 30pt;
