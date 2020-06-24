@@ -5,6 +5,7 @@ export const Global = createGlobalStyle`
     font-family: 'Roboto', Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    background-color: ${props => props.theme.background};;
 
     article,
     aside,

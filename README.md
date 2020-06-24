@@ -5,6 +5,15 @@
 [![Powered by Vercel](./powered-by-vercel.svg)](https://vercel.co?utm_source=smakosh)
 
 ## Theme
+Color Palette
+
+#212121
+#523F4F
+#965B6A
+#D6806E
+#FBB566
+#F9F871
+
 
 [Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio)
 
