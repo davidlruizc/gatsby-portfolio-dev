@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   padding: 2rem 0;
+
+  h2 {
+    color: ${props => props.theme.text};
+  }
 `;
 
 export const Grid = styled.div`
@@ -37,6 +41,14 @@ export const Item = styled.div`
 
 export const Content = styled.div`
   padding: 1rem 0;
+
+  h4 {
+    color: ${props => props.theme.text};
+  }
+
+  p {
+    color: ${props => props.theme.text};
+  }
 `;
 
 export const Stats = styled.div`
@@ -54,7 +66,7 @@ export const Stats = styled.div`
     }
 
     span {
-      color: #000;
+      color: ${props => props.theme.text};
       margin-left: 0.5rem;
     }
   }

@@ -7,11 +7,13 @@ export const theme = {
       text: '#575757',
       textHighlight: '#333',
       background: '#fff',
+      card: '#fff',
     },
     darkTheme: {
       text: '#dadada',
       textHighlight: '#F0F0F0',
       background: '#212121',
+      card: '#292929',
     },
   },
 };

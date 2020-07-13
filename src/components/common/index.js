@@ -5,3 +5,4 @@ export * from './Card';
 export * from './Input';
 export * from './SEO';
 export * from './Branding';
+export * from './Icons';
